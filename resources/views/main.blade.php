@@ -17,7 +17,7 @@
 							<li><a href="/registro">Regístrese</a></li>
 							<li><a href="/main">Contacto</a></li>
 							<li>Usuario </li>
-							<li style="text-decoration: none"><a href="logout.php">Salir</a></li>
+							<li style="text-decoration: none"><a href="/logout">Salir</a></li>
 						</ul>
 				</nav></div>
 			</div>

@@ -13,10 +13,10 @@
 				<div style="float: right">
 				<nav class="main.nav">
 						<ul>
-							<li><a href="main.php">Home</a></li>
+							<li><a href="/main">Home</a></li>
 							@if (Auth::check())
-					 	  <li><a href="iniciosesion.php">Iniciar sesión</a></li>
-							<li><a href="registro.php">Regístrese</a></li>
+					 	  <li><a href="/iniciosesion">Iniciar sesión</a></li>
+							<li><a href="/registro">Regístrese</a></li>
 							<li><a href="#">Contacto</a></li>
 						</ul>
 				</nav></div>

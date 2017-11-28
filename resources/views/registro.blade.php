@@ -14,9 +14,9 @@
 				<div style="float: right">
 				<nav class="main.nav">
 						<ul>
-							<li><a href="main.php">Home</a></li>
-							<li><a href="iniciosesion.php">Iniciar sesión</a></li>
-							<li><a href="registro.php">Regístrese</a></li>
+							<li><a href="/">Home</a></li>
+							<li><a href="/iniciosesion">Iniciar sesión</a></li>
+							<li><a href="/registro">Regístrese</a></li>
 							<li><a href="#">Contacto</a></li>
 						</ul>
 				</nav></div>
@@ -31,7 +31,7 @@
 <br>
 <center>
 		<form action="registro.php" class="registro" method="post" enctype="multipart/form-data">
-		<div class="rounded">
+	<div class="rounded">
 			<div>
   			Nombre:<br>
   			<input type="text" name="nombre" value="">
@@ -54,77 +54,52 @@
 
   			</div>
   			<br>
-  			<div>
+  		<div>
   			Mail:<br>
-  			<input type="text" name="email" value="">
+  				<input type="text" name="email" value="">
   			<br>
-
-            <span style="color:red;">
-
-            </span>
-
-  			</div>
+					<span style="color:red;"></span>
+  		</div>
         <br>
-        <div class="form-group">
-          <label for="">Foto de Perfil (Opcional):</label>
-          <br>
-
-
-            <input class="form-control error" type="file" name="foto-perfil">
-
-            <input class="form-control" type="file" name="foto-perfil">
-
-        </div>
+      <div class="form-group">
+        <label for="">Foto de Perfil (Opcional):</label>
+        <br>
+        <input class="form-control error" type="file" name="foto-perfil">
+      </div>
   			<br>
-  			<div>
+  		<div>
   			Sexo:<br>
         <input type="hidden" name="sexo" value="off">
   			Masculino<input type="radio" name="sexo" value="masculino">
   			Femenino<input type="radio" name="sexo" value="femenino">
         Otro<input type="radio" name="sexo" value="otro">
         <br>
-
-            <span style="color:red;">
-
-            </span>
-
-  			</div>
+				<span style="color:red;"></span>
+			</div>
   			<br>
-  			<div>
+  		<div>
   			Contraseña:<br>
   			<input type="password" name="contrasena" value="">
   			<br>
-
-            <span style="color:red;">
-
-            </span>
-
-  			</div>
+        <span style="color:red;"></span>
+  		</div>
   			<br><br>
-  			<div>
+  		<div>
   			Confirmar contraseña:<br>
   			<input type="password" name="ccontrasena" value="">
   			<br>
-
-            <span style="color:red;">
-
-            </span>
-
-  			</div>
+        <span style="color:red;"></span>
+			</div>
   			<br>
-  			<div>
+			<div>
   			<h6>Acepta los terminos y condiciones?
-        <input type="hidden" name="terminos" value="off">
-  			<input type="checkbox" name="terminos"></h6>
-
-            <span style="color:red; position: relative; bottom: 23px;">
-
-            </span>
-
-  			</div>
-  		</div>
+        	<input type="hidden" name="terminos" value="off">
+  				<input type="checkbox" name="terminos"></h6>
+          <span style="color:red; position: relative; bottom: 23px;"></span>
+			</div>
+  </div>
   			<input type="submit" value="Crear cuenta">
-		</form>
+				</form>
 				<footer class= "main-footer">
 						<ul>
 							<li><a href="main.html">Home</a></li>
